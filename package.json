@@ -1,0 +1,46 @@
+{
+  "name": "difference",
+  "version": "1.0.0",
+  "description": "Calculate the difference of two arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=difference node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miketheprogrammer/difference.git"
+  },
+  "keywords": [
+    "array",
+    "difference",
+    "intersection",
+    "calc",
+    "calculations",
+    "set",
+    "vector"
+  ],
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "author": "Michael Hernandez -- michael.hernandez1988@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miketheprogrammer/difference/issues"
+  },
+  "homepage": "https://github.com/miketheprogrammer/difference",
+  "devDependencies": {
+    "debug": "~0.7.4",
+    "tape": "~2.4.2",
+    "lazy-range": "0.0.1"
+  }
+}
