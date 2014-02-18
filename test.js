@@ -8,11 +8,11 @@ test('Using large ranges, we should receive a proper difference', function (t) {
 
     res.forEach(function(v) {
         if (v > 3000 && v < 5000) {
-            t.fail();
+            t.fail("Failed on: " + v);
         }
     });
 
-    t.ok();
+    t.ok(true);
 });
 
 test('Using predefined set difference should be correct', function (t) {
