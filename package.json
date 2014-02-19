@@ -1,6 +1,6 @@
 {
   "name": "difference",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calculate the difference of two arrays",
   "main": "index.js",
   "scripts": {

@@ -10,13 +10,14 @@ var Difference = module.exports = function difference(a, b) {
     var o_a = {};
     var o_b = {};
 
-    a.map(function(v) {
-        o_a[v] = v;
-    })
+    for (var i = 0; i < a.length; i += 1) {
+        o_a[a[i]] = a[i];
+    }
 
-    b.map(function(v) {
-        o_b[v] = v;
-    });
+    for (var i = 0; i < b.length; i += 1) {
+        o_b[b[i]] = b[i];
+    }
+
 
     var result = [];
     for (var key in o_b) {
