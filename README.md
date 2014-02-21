@@ -24,3 +24,7 @@ difference([1,2,'3'],[3,4,5])
 
 //output = [1,2,4,5];
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/miketheprogrammer/difference/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
